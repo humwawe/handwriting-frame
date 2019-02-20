@@ -23,10 +23,10 @@ public class HumProxy implements InvocationHandler {
     }
 
     public void before() {
-        System.out.println("before eat.........");
+        System.out.println("before eat hum.........");
     }
 
     public void after() {
-        System.out.println("after eat.........");
+        System.out.println("after eat hum.........");
     }
 }

@@ -9,7 +9,7 @@ import java.lang.reflect.Proxy;
  * @author hum
  */
 public class ProxyClient {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Throwable {
         Person personProxy = (Person) Proxy.newProxyInstance(ProxyClient.class.getClassLoader(), new Class<?>[]{Person.class}, new HumProxy(new Hum()));
         personProxy.eat2();
     }

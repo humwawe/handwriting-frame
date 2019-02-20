@@ -9,11 +9,11 @@ public class Hum implements Person {
 
     @Override
     public void eat() {
-        System.out.println("hum eat............");
+        System.out.println("eat............");
     }
 
     @Override
     public void eat2() {
-        System.out.println("hum eat2............");
+        System.out.println("eat2............");
     }
 }
