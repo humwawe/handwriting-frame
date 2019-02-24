@@ -11,6 +11,7 @@
     <modules>
         <module>spring_mvc</module>
         <module>proxy</module>
+        <module>http_server</module>
     </modules>
 
 
