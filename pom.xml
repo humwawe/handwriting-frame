@@ -12,6 +12,7 @@
         <module>spring_mvc</module>
         <module>proxy</module>
         <module>http_server</module>
+        <module>dubbo</module>
     </modules>
 
 
