@@ -16,7 +16,7 @@ public class RegisterServlet implements Servlet {
         response.print("<head>");
         response.print("<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">");
         response.print("<title>");
-        response.print("register success");
+        response.print("hum.register success");
         response.print("</title>");
         response.print("</head>");
         response.print("<body>");

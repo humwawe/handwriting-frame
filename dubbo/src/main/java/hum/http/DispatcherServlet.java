@@ -1,4 +1,4 @@
-package protocol.http;
+package hum.http;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

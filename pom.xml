@@ -13,6 +13,7 @@
         <module>proxy</module>
         <module>http_server</module>
         <module>dubbo</module>
+        <module>netty</module>
     </modules>
 
 

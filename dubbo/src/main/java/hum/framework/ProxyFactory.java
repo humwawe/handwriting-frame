@@ -1,8 +1,8 @@
-package framework;
+package hum.framework;
 
-import protocol.http.HttpClient;
-import provider.api.HelloService;
-import register.MapRegister;
+import hum.http.HttpClient;
+import hum.provider.api.HelloService;
+import hum.register.MapRegister;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

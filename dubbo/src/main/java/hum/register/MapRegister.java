@@ -1,6 +1,6 @@
-package register;
+package hum.register;
 
-import framework.Url;
+import hum.framework.Url;
 
 import java.io.*;
 import java.util.HashMap;
@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class MapRegister {
     private static Map<String, Map<Url, Class>> REGISTER = new HashMap<>();
-    private static final String INFO_PATH = "C:\\Users\\hum\\IdeaProjects\\handwriting_frame\\dubbo\\src\\main\\java\\register\\info\\register.text";
+    private static final String INFO_PATH = "C:\\Users\\hum\\IdeaProjects\\handwriting_frame\\dubbo\\src\\main\\java\\hum\\register\\info\\register";
 
     public static void regist(String interfaceName, Url url, Class implClass) {
         Map<Url, Class> map = new HashMap<>();

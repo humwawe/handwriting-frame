@@ -1,6 +1,6 @@
-package provider.impl;
+package hum.provider.impl;
 
-import provider.api.HelloService;
+import hum.provider.api.HelloService;
 
 /**
  * @author hum

@@ -1,4 +1,4 @@
-package provider.api;
+package hum.provider.api;
 
 /**
  * @author hum

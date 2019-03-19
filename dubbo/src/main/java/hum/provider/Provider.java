@@ -1,11 +1,11 @@
-package provider;
+package hum.provider;
 
 
-import framework.Url;
-import protocol.http.HttpServer;
-import provider.api.HelloService;
-import provider.impl.HelloServiceImpl;
-import register.MapRegister;
+import hum.framework.Url;
+import hum.http.HttpServer;
+import hum.provider.api.HelloService;
+import hum.provider.impl.HelloServiceImpl;
+import hum.register.MapRegister;
 
 /**
  * @author hum

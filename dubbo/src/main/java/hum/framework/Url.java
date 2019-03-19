@@ -1,4 +1,4 @@
-package framework;
+package hum.framework;
 
 import java.io.Serializable;
 import java.util.Objects;

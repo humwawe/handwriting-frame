@@ -1,9 +1,9 @@
-package protocol.http;
+package hum.http;
 
-import framework.Invocation;
-import framework.Url;
+import hum.framework.Invocation;
+import hum.framework.Url;
 import org.apache.commons.io.IOUtils;
-import register.MapRegister;
+import hum.register.MapRegister;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

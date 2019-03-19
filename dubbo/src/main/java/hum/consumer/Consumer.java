@@ -1,9 +1,7 @@
-package consumer;
+package hum.consumer;
 
-import framework.Invocation;
-import framework.ProxyFactory;
-import protocol.http.HttpClient;
-import provider.api.HelloService;
+import hum.framework.ProxyFactory;
+import hum.provider.api.HelloService;
 
 /**
  * @author hum

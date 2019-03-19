@@ -1,6 +1,6 @@
-package protocol.http;
+package hum.http;
 
-import framework.Invocation;
+import hum.framework.Invocation;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;
