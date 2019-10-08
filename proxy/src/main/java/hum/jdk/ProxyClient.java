@@ -1,4 +1,4 @@
-package hum.jdk_proxy;
+package hum.jdk;
 
 import hum.obj.Hum;
 import hum.obj.Person;

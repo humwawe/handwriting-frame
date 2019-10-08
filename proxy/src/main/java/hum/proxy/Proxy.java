@@ -20,7 +20,7 @@ public class Proxy {
     public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces, InvocationHandler h) {
         String javaClassStr = getJavaStr(interfaces);
 
-        String fileName = "C:\\Users\\hum\\IdeaProjects\\handwriting_frame\\proxy\\src\\main\\java\\hum\\proxy\\classtr\\$Proxy0.java";
+        String fileName = "C:\\Users\\hum\\IdeaProjects\\handwriting-frame\\proxy\\src\\main\\java\\hum\\proxy\\classtr\\$Proxy0.java";
         createJavaFile(javaClassStr, fileName);
 
         compileJava(fileName);
@@ -80,7 +80,7 @@ public class Proxy {
     }
 
     private static Object loadClass(InvocationHandler h) {
-        String path = "C:\\Users\\hum\\IdeaProjects\\handwriting_frame\\proxy\\src\\main\\java\\hum\\proxy\\classtr";
+        String path = "C:\\Users\\hum\\IdeaProjects\\handwriting-frame\\proxy\\src\\main\\java\\hum\\proxy\\classtr";
         HumClassLoader humClassLoader = new HumClassLoader(path);
         try {
             Class<?> proxyClass = humClassLoader.findClass("$Proxy0");
