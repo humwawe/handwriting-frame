@@ -172,8 +172,8 @@ public class DispatcherServlet extends HttpServlet {
                 for (Method method : methods) {
                     if (method.isAnnotationPresent(RequestMapping.class)) {
                         RequestMapping requestMapping = method.getAnnotation(RequestMapping.class);
-                        String methordUrl = requestMapping.value();
-                        handlerMap.put(value + methordUrl, method);
+                        String methodUrl = requestMapping.value();
+                        handlerMap.put(value + methodUrl, method);
                     }
                 }
             }
