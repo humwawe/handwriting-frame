@@ -1,4 +1,4 @@
-package xml.vo;
+package common.vo;
 
 import java.io.Serializable;
 
@@ -10,7 +10,7 @@ public class BeanDefinition implements Serializable {
 
     private String id;
     private String pkgClass;
-    private boolean lazy;
+    private boolean lazy = false;
 
     public String getId() {
         return id;
