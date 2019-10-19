@@ -31,8 +31,6 @@ public class HttpClient {
             InputStream inputStream = urlConnection.getInputStream();
             return IOUtils.toString(inputStream);
 
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
